@@ -22,7 +22,7 @@ class SubscriptionSerializer(serializers.ModelSerializer):
 
         subscription = Subscription(**validated_data)
         subscription.start_date = datetime.now()
-        subscription.start_date = end_date
+        subscription.end_date = end_date
         subscription.save()
 
         return subscription
