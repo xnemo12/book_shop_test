@@ -1,0 +1,44 @@
+- model: store.Book
+  pk: 1
+  fields:
+    title: Book1
+    authors: 'Author1, Author1'
+    publisher: 'Publisher1'
+    publication_date: '2020-01-01'
+    description: 'Description1'
+
+- model: store.Book
+  pk: 2
+  fields:
+    title: Book2
+    authors: 'Author1, Author1'
+    publisher: 'Publisher1'
+    publication_date: '2020-01-01'
+    description: 'Description2'
+
+- model: store.Book
+  pk: 3
+  fields:
+    title: Book3
+    authors: 'Author1, Author1'
+    publisher: 'Publisher1'
+    publication_date: '2020-01-01'
+    description: 'Description3'
+
+- model: store.Book
+  pk: 4
+  fields:
+    title: Book4
+    authors: 'Author1, Author1'
+    publisher: 'Publisher1'
+    publication_date: '2020-01-01'
+    description: 'Description4'
+
+- model: store.Book
+  pk: 5
+  fields:
+    title: Book5
+    authors: 'Author1, Author1'
+    publisher: 'Publisher1'
+    publication_date: '2020-01-01'
+    description: 'Description5'
